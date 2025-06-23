@@ -1,3 +1,7 @@
+"""
+Given an outline polygon, such as a lake or reservoir, and an estimate Elevation-Area table, this script will create a contour shapefile, buffering the lake surface down to match the Elevation-Area table.
+"""
+
 # %%
 import geopandas as gpd
 from shapely.geometry import Polygon
